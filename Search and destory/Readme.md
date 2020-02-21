@@ -7,7 +7,7 @@ Problem: We have a landscape represented by a map of cells. The cells can be of 
 4. P(Target not found in cell|Target in cell) = 0.9; if cell is a maze of cave
 
 I modeled this information using Bayesian Networks to update knowledge/belief about a system probabilistically, and use this belief
-state to efficiently direct future action. According to the current state of the belief of the agent, the next cell to search is chosen according to two rules: \\
-Rule 1:  At any time, search the cell with the highest probability of containing the target. \\
-Rule 2:  At any time, search the cell with the highest probability of finding the target. 
+state to efficiently direct future action. According to the current state of the belief of the agent, the next cell to search is chosen according to two rules:  
+Rule 1:  At any time, search the cell with the highest probability of containing the target.   
+Rule 2:  At any time, search the cell with the highest probability of finding the target.   
 According to these rules, the belief of the agent is updated each time. 
