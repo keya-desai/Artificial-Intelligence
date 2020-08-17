@@ -11,4 +11,4 @@ more complex strategies are evaluated.
 
 2. **[CSP](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) Solver:** This solver uses inference to solve the game like humans. The information is stored in a knowlege base which is updated after every move. Using CSP, inferences are made from the new knowledge. 
 
-3. **Partial Information CSP Solver[Bonus]:** In this environment, the on openning a cell, the information received is accurate but the but it will be revealed with some probability. This is an extension to the CSP solver. 
+3. **Partial Information CSP Solver[Bonus]:** In this environment, on opening a cell, the information received is accurate but the but it will be revealed with some probability. This is an extension to the CSP solver. 
